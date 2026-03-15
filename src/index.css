@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-cyber-dark: #0f172a;
+  /* slate-900 */
+  --color-cyber-darker: #020617;
+  /* slate-950 */
+  --color-cyber-blue: #009CC1;
+  /* JCKB Primary Cyan from logomanual */
+  --color-cyber-neon: #06b6d4;
+  /* cyan-500 */
+  --color-cyber-accent: #10b981;
+  /* emerald-500 */
+
+  --color-brand-primary: #009CC1;
+  /* JCKB Primary Cyan */
+  --color-brand-secondary: #727272;
+  /* JCKB Grey from logomanual */
+  
+  --font-sans: "Bahnschrift", "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #f8fafc;
+    /* Světlé pozadí - slate-50 */
+    --foreground: #0f172a;
+    /* Tmavý text - slate-900 */
+    --surface: #ffffff;
+    --border: #e2e8f0;
+  }
+
+  .dark {
+    --background: #020617;
+    /* slate-950 */
+    --foreground: #f8fafc;
+    /* slate-50 */
+    --surface: #0f172a;
+    /* slate-900 */
+    --border: #1e293b;
+    /* slate-800 */
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(0, 156, 193, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: none;
+  }
+
+  .dark .glass {
+    background: rgba(15, 23, 42, 0.4);
+    border: none;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .dark .glass-card {
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}

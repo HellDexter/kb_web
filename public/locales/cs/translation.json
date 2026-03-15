@@ -1,0 +1,398 @@
+{
+    "nav": {
+        "oAplikaci": "O nás",
+        "sluzby": "Služby",
+        "aktuality": "Aktuality",
+        "kariera": "Kariéra",
+        "kontakt": "Kontakt"
+    },
+    "hero": {
+        "shield": "Bezpečnost na prvním místě",
+        "title1": "Krajský",
+        "title2": "Kybernetický",
+        "title3": "Štít",
+        "subtitle": "Jihočeské centrum kybernetické bezpečnosti s.r.o. poskytuje centrální ochranu organizacím zřizovaným Jihočeským krajem.",
+        "buttonNews": "Přejít na Aktuality",
+        "buttonContact": "Kontaktovat s žádostí"
+    },
+    "onas": {
+        "title": "Kdo jsme a jaké je naše poslání",
+        "subtitle": "Zajišťujeme a neustále zvyšujeme úroveň kybernetické ochrany organizací v Jihočeském kraji.",
+        "serviceTitle": "Servisní organizace kraje",
+        "aboutText1": "Společnost Jihočeské centrum kybernetické bezpečnosti, s.r.o. vznikla rozhodnutím Zastupitelstva Jihočeského kraje proto, aby jako servisní organizace pomáhala zajišťovat bezpečnost chodu, IT infrastruktury a informací organizacím zřizovaným krajem. Nejen samotný krajský úřad, ale zejména zdravotnická zařízení (nemocnice, záchranná služba), tak budou moci využívat podpory centra při eliminaci hrozeb v kybernetickém prostoru, které by mohly paralyzovat jejich provoz nebo vést ke ztrátě důležitých dat.",
+        "aboutText2": "Postupující digitalizace přináší větší zranitelnost subjektů provozujících IT systémy. Často dochází k závažným kybernetickým útokům, které pak napadeným organizacím způsobují rozsáhlé škody. Jejich náprava vyžaduje značné finanční náklady a zejména také dlouhou dobu potřebnou k vyřešení funkčních problémů způsobených útokem. Po tuto dobu může být provoz organizace výrazně omezen. Digitální technologie, jak bylo výše zmíněno, stále více využívají právě organizace typu nemocnic nebo zdravotnické záchranné služby.",
+        "aboutText3": "V souvislosti s transpozicí evropské směrnice NIS2 (která je aktualizovanou verzí směrnice NIS - Network and Information Security z roku 2016) do české legislativy dojde k rozšíření počtu organizací, které budou mít povinnost zavádět nová organizační, procesní a technická opatření. Mezi tyto organizace s novými povinnostmi v oblasti zajišťování kybernetické bezpečnosti budou patřit i zmíněné krajem zřizované subjekty (nemocnice, záchranná služba a další). Všechna tato opatření si vyžádají nejen značné finanční, ale zejména personální náklady.",
+        "aboutText4": "Jihočeské centrum kybernetické bezpečnosti tím, že bude soustřeďovat odborníky v oblasti kyberbezpečnosti na jednom místě, bude pomáhat s organizačním a procesním zaváděním požadavků směrnice NIS2. Zároveň bude spolupracovat na technickém zabezpečení jednotlivých subjektů, řešit jednotlivé hrozby, a prostřednictvím dostupných nástrojů přispívat k efektivnějšímu zabezpečení dotčených organizací v kyberprostoru.",
+        "visionTitle": "Naše Vize",
+        "visionText": "Být hlavním partnerem Jihočeského kraje a jeho obcí v boji proti digitálním hrozbám a vytvořit bezpečný kybernetický ekosystém pro občany.",
+        "teamTitle": "Náš Tým",
+        "teamText": "Skládáme se z certifikovaných bezpečnostních expertů, etických hackerů a zkušených analytiků s lety praxe v ochraně kritické infrastruktury.",
+        "stats1": "Ochrana organizací",
+        "stats2": "SOC Monitoring",
+        "stats3": "Compliance Partner",
+        "stats4": "Trust Architecture"
+    },
+    "legal": {
+        "gdpr": {
+            "title": "Ochrana osobních údajů (GDPR)",
+            "p1": "Společnost Jihočeské centrum kybernetické bezpečnosti, s.r.o. (dále jen JCKB) zpracovává osobní údaje v souladu s Nařízením Evropského parlamentu a Rady (EU) 2016/679 (GDPR).",
+            "purposeTitle": "Účel zpracování",
+            "purposeText": "Osobní údaje zpracováváme především za účelem komunikace se zájemci o spolupráci, vyřizování dotazů a zajištění bezpečnosti našich služeb.",
+            "rightsTitle": "Vaše práva",
+            "rightsText": "Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a právo vznést námitku proti zpracování.",
+            "contactText": "Pro uplatnění svých práv nás kontaktujte na e-mailu: info@jckb.cz"
+        },
+        "cookies": {
+            "title": "Zpracování cookies",
+            "p1": "Tento web používá pouze nezbytné technické cookies, které jsou potřeba pro správné fungování stránek a zajištění bezpečnosti.",
+            "p2": "Nepoužíváme žádné reklamní nebo sledovací cookies třetích stran bez vašeho výslovného souhlasu.",
+            "settingsTitle": "Nastavení",
+            "settingsText": "Své preference můžete kdykoliv změnit v nastavení soukromí v levém dolním rohu obrazovky."
+        },
+        "mandatory": {
+            "title": "Povinně zveřejňované informace",
+            "nameLabel": "Název společnosti:",
+            "nameValue": "Jihočeské centrum kybernetické bezpečnosti, s.r.o.",
+            "idLabel": "IČO:",
+            "idValue": "23012161",
+            "taxIdLabel": "DIČ:",
+            "taxIdValue": "CZ23012161",
+            "regLabel": "Spisová značka:",
+            "regValue": "C 35116 vedená u Krajského soudu v Českých Budějovicích",
+            "addressLabel": "Sídlo:",
+            "addressValue": "Lipová 1789/9, České Budějovice 2, 370 05 České Budějovice",
+            "dataBoxLabel": "Datová schránka:",
+            "dataBoxValue": "6aqnhjf"
+        }
+    },
+    "jobs": {
+        "title": "Hledáme nové posily!",
+        "subtitle": "Zajímají tě moderní bezpečnostní technologie? Hledáme IT specialisty do nového krajského SOCu.",
+        "expectations": "Očekáváme",
+        "salaryLabel": "Ohodnocení",
+        "allJobsBtn": "Prohlédnout všechny pozice v nabídce",
+        "ariaGoToJob": "Přejít na pozici"
+    },
+    "career": {
+        "title": "Kariéra v",
+        "subtitle": "Připojte se k týmu odborníků v oblasti kybernetické bezpečnosti. Pomáháme chránit digitální infrastrukturu Jihočeského kraje před moderními hrozbami.",
+        "hideDetails": "Skrýt detail",
+        "showDetails": "Zobrazit detail",
+        "tasks": "Pracovní náplň",
+        "expected": "Očekáváme",
+        "bonus": "Čím bys nás nadchl:",
+        "offer": "Nabízíme",
+        "start": "Nástup:",
+        "contact": "Kontakt:",
+        "sendCV": "Poslat životopis",
+        "emailSubject": "Zájem o pozici:",
+        "items": [
+            {
+                "id": "manazer-kb",
+                "title": "Manažer/ka kybernetické bezpečnosti",
+                "salary": "50 000 - 100 000 Kč",
+                "tasks": [
+                    "Zabezpečovat systém řízení bezpečnosti informací v organizacích zřizovaných Jihočeským krajem.",
+                    "Vykonávat roli Manažera kybernetické bezpečnosti.",
+                    "Tvořit a realizovat bezpečnostní strategii a podílet se na procesu identifikace a zřízení rizik.",
+                    "Monitoring aktuálních bezpečnostních hrozeb a příprava Business Continuity Managementu.",
+                    "Organizovat výbory pro kybernetickou bezpečnost.",
+                    "Zajišťovat soulad s regulačními požadavky u zapojených organizací (zejména NIS2, GDPR, ZKB).",
+                    "Incident management a krizová reakce (Analýza bezpečnostních incidentů a součinnost v rámci krizového řízení).",
+                    "Podílet se na zvyšování povědomí o kybernetické bezpečnosti a sledovat aktuální trendy.",
+                    "Cestovat a účastnit se jednání ve spravovaných organizacích."
+                ],
+                "expected": [
+                    "VŠ a minimálně 2 roky zkušeností v oblasti kybernetické bezpečnosti (nebo SŠ a minimálně 5 let praxe).",
+                    "Znalost bezpečnostních standardů (např. ISO 27001, NIS2, GDPR).",
+                    "Znalosti spojené s efektivním nasazením a provozováním technických bezpečnostních řešení.",
+                    "Schopnost identifikovat, analyzovat a řídit bezpečnostní rizika.",
+                    "Silné komunikační a organizační schopnosti, schopnost vést tým a řídit projekty.",
+                    "Výhodou je relevantní certifikace v oblasti informační bezpečnosti.",
+                    "Řidičský průkaz skupiny B – aktivní řidič.",
+                    "Trestní bezúhonnost."
+                ],
+                "offer": [
+                    "Práci na zajímavých projektech, které Vám umožní ovlivnit kvalitu výkonu poskytování lékařské péče v Jihočeském kraji.",
+                    "Zajímavou práci ve společnosti, která se zabývá kyberbezpečností.",
+                    "Příležitost k získání nových zkušeností, prostor pro seberealizaci.",
+                    "Možnost profesního vzdělávání a osobního rozvoje.",
+                    "Přátelský a podporující tým, který společně směřuje k úspěchu.",
+                    "Slušné a férové jednání.",
+                    "Kvalitní techniku k bezproblémovému výkonu práce.",
+                    "Systém podnikových benefitů.",
+                    "Mzdu odpovídající schopnostem a zkušenostem daného kandidáta, u nás nepracujeme za tabulkové mzdy."
+                ],
+                "benefits": [
+                    "Další vzdělávání, kurzy a relevantní certifikace",
+                    "Firemní akce",
+                    "Flexibilní začátek/konec pracovní doby",
+                    "Možnost práce z domova",
+                    "Dovolená 5 týdnů",
+                    "Zdravotní volno/sickdays",
+                    "Příspěvek na penzijní/životní připojištění",
+                    "Stravenky/příspěvek na stravování",
+                    "Mobilní telefon",
+                    "Notebook"
+                ],
+                "location": "České Budějovice",
+                "start": "ihned nebo dohodou",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "it-specialista-senior",
+                "title": "IT specialista junior/senior",
+                "salary": "50 000 - 100 000 Kč",
+                "tasks": [
+                    "Instalace a správa uživatelských počítačů s Windows a další firemní výpočetní techniky.",
+                    "Zabezpečení IT prostředí.",
+                    "Správa, instalace a rekonfigurace sítí a síťových prvků.",
+                    "Instalace, konfigurace, zálohování, správa, změny a implementace servisních požadavků.",
+                    "Správa služeb a VM v cloudových platformách MS Azure a vCloud Director.",
+                    "Tvorba provozní dokumentace projektů.",
+                    "Úzká spolupráce s manažerem provozu za účelem plnění svěřených úkolů."
+                ],
+                "expected": [
+                    "Ukončené středoškolské vzdělání a praxe v oboru",
+                    "Znalost českého jazyka",
+                    "Trestní bezúhonnost"
+                ],
+                "bonus": [
+                    "Znalost souvisejících softwarových produktů.",
+                    "Znalost protokolu TCP/IP a sítí.",
+                    "Znalost skriptovacích jazyků.",
+                    "Orientace v problematice SQL databází (PostgreSQL, MSSQL..).",
+                    "Znalost, instalace a správa Linux a Windows serverů, diagnostika.",
+                    "Znalost Microsoft 365 – administrace a správa uživatelů.",
+                    "Znalost MS Azure na úrovni správce.",
+                    "MS certifikace (AZ-104, MS-500, SC-200, MCSA).",
+                    "Znalost kybernetické bezpečnosti a SOC Operations."
+                ],
+                "offer": [
+                    "Práci na zajímavých projektech v Jihočeském kraji.",
+                    "Zajímavou práci ve společnosti, která se zabývá kyberbezpečností.",
+                    "Možnost profesního vzdělávání a osobního rozvoje.",
+                    "Přátelský a podporující tým, který společně směřuje k úspěchu.",
+                    "Kvalitní techniku k bezproblémovému výkonu práce.",
+                    "Mzdu odpovídající schopnostem a zkušenostem."
+                ],
+                "benefits": [
+                    "Vzdělávací kurzy, školení",
+                    "Firemní akce",
+                    "Flexibilní začátek/konec pracovní doby",
+                    "Možnost práce z domova",
+                    "Dovolená 5 týdnů",
+                    "Zdravotní volno/sickdays",
+                    "Příspěvek na penzijní/životní připojištění",
+                    "Stravenky/příspěvek na stravování"
+                ],
+                "location": "České Budějovice",
+                "start": "ihned nebo dohodou",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "vedouci-soc",
+                "title": "Vedoucí SOC",
+                "salary": "100 000 - 150 000 Kč",
+                "tasks": [
+                    "Zásadním způsobem se budete podílet na vybudování Security Operations Centra (SOC).",
+                    "Ve spolupráci s ostatními leadery povedete personální výběr vhodných uchazečů.",
+                    "Zodpovědný za vedení a rozvoj týmu SOC analytiků.",
+                    "Řízení detekce, analýzy a reakcí na kybernetické incidenty.",
+                    "Definování detekčních pravidel, automatizační playbooky a incident response procesy.",
+                    "Zajištění komunikace s národním CERT a provozu SOC v souladu s NIS2 a ZoKB.",
+                    "Nastavení a optimalizace procesů v oblasti monitoringu a incident response.",
+                    "Tvorba návrhu a optimalizace architektury SOCu (SIEM, SOAR, TI, log management, EDR, XDR)."
+                ],
+                "expected": [
+                    "Zkušenost s budováním Security Operations Center a vedením týmu.",
+                    "Praxe v oblasti kybernetické bezpečnosti.",
+                    "Zkušenosti s IT bezpečnostní architekturou, automatizací a Threat Intelligence.",
+                    "Znalost principů SOC, SIEM, SOAR, EDR, IDS/IPS, CTI a dalších nástrojů.",
+                    "Praktická znalost jednoho nebo více SIEM řešení.",
+                    "Dobré organizační schopnosti a schopnost rozhodovat pod tlakem.",
+                    "Orientaci v rámci norem (např. ISO 27001, NIST, MITRE ATT&CK).",
+                    "Angličtinu na komunikativní úrovni."
+                ],
+                "bonus": [
+                    "Certifikace (např. CISSP, CISM, GIAC)"
+                ],
+                "offer": [
+                    "Práci na zajímavých projektech ovlivňujících kvalitu péče v Jihočeském kraji.",
+                    "Zajímavou práci v kyberbezpečnosti se skvělým zázemím.",
+                    "Prostor pro seberealizaci a rozvoj."
+                ],
+                "benefits": [
+                    "Další vzdělávání, kurzy a relevantní certifikace",
+                    "Firemní akce",
+                    "Flexibilní a remote formy práce",
+                    "Dovolená 5 týdnů",
+                    "Příspěvek na penzijní připojištění"
+                ],
+                "location": "České Budějovice",
+                "start": "ihned",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "it-sitar",
+                "title": "IT specialista \"síťař\"",
+                "salary": "50 000 - 100 000 Kč",
+                "tasks": [
+                    "Spravovat a udržovat firemní síťovou infrastrukturu (switche, routery, firewally).",
+                    "Konfigurovat a optimalizovat prvky síťového zabezpečení.",
+                    "Podílet se na návrhu a implementaci síťových řešení.",
+                    "Monitorovat síťový provoz, vyhodnocovat incidenty, zvyšovat kybernetickou bezpečnost.",
+                    "Spolupracovat na zajištění hladkého chodu firemních služeb.",
+                    "Tvořit technickou a provozní dokumentaci."
+                ],
+                "expected": [
+                    "SŠ vzdělání a praxi v oblasti správy sítí.",
+                    "Zkušenosti s TCP/IP, VLAN, routing, switching, VPN, 802.1X.",
+                    "Konfigurace firewallů a přehled o principech zabezpečení.",
+                    "Znalost českého jazyka a trestní bezúhonnost."
+                ],
+                "bonus": [
+                    "Zkušenost s Fortinet, Cisco, Sophos.",
+                    "Základy práce s Linux a Windows servery, síťová diagnostika.",
+                    "Přehled o principech segmentace, IDS/IPS, Zero Trust.",
+                    "Certifikace jako Fortinet NSE, CCNA nebo CompTIA."
+                ],
+                "offer": [
+                    "Práci v silném týmu se zaměřením na bezpečnost sytémů veřejné správy.",
+                    "Vysoce kvalitní IT techniku k práci."
+                ],
+                "benefits": [
+                    "Vzdělávání a certifikace",
+                    "Firemní akce",
+                    "5 týdnů dovolené",
+                    "Sickdays",
+                    "Notebook a telefon",
+                    "Flexibilita práce"
+                ],
+                "location": "České Budějovice",
+                "start": "ihned nebo dohodou",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "it-m365",
+                "title": "IT specialista/Správce M365",
+                "salary": "60 000 - 120 000 Kč",
+                "tasks": [
+                    "Komplexní správa Microsoft 365 / Entra ID (Azure AD) tenantu.",
+                    "Správa uživatelských účtů, skupin, rolí, domén, DNS záznamů a licencí.",
+                    "Konfigurace MFA, SSPR, Conditional Access, Identity Protection.",
+                    "Správa a konfigurace Entra Connect / Cloud Sync mezi on-prem AD a cloudem.",
+                    "Plná správa Intune včetně MDM / MAM politik pro Windows, iOS, Android.",
+                    "Konfigurace Autopilotu, Enrollmentu a Compliance politik.",
+                    "Vytváření a správa konfiguračních profilů (BitLocker, Wi-Fi, VPN atd.).",
+                    "Automatizace onboardingu (Intune + Power Automate)."
+                ],
+                "expected": [
+                    "Zkušenost se správou Microsoft 365 / Entra ID / Intune alespoň 2 roky.",
+                    "Ukončené středoškolské vzdělání a praxe v oboru.",
+                    "Znalost českého jazyka a bezúhonnost."
+                ],
+                "bonus": [
+                    "Zkušenost s PKI / ProID+ / certifikáty",
+                    "Orientace v NIS2, ISO 27001, GDPR",
+                    "Schopnost psát PowerShell skripty, Graph API",
+                    "Porozumění Microsoft Sentinel a Log Analytics",
+                    "Znalost principů Zero Trust."
+                ],
+                "offer": [
+                    "Příležitost růst s technologií v bezpečně stabilním prostředí."
+                ],
+                "benefits": [
+                    "Možnost práce z domova",
+                    "Další vzdělávání",
+                    "Sickdays",
+                    "5 týdnů dovolené",
+                    "Osobní ohodnocení"
+                ],
+                "location": "České Budějovice",
+                "start": "ihned nebo dohodou",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            }
+        ]
+    },
+    "news": {
+        "title": "Aktuality a Hrozby",
+        "subtitle": "Přehled nejnovějších událostí v oblasti bezpečnosti a varování vydaná centrem JCKB.",
+        "allSources": "Všechny zdroje",
+        "filterBy": "Zdroj:",
+        "readMore": "Číst více",
+        "loadMore": "Načíst další zprávy",
+        "types": {
+            "kr": "KRITICKÉ",
+            "ar": "ČLÁNEK",
+            "ev": "UDÁLOST"
+        },
+        "items": [
+            {
+                "title": "Zvýšené Riziko Phishingových Útoků v Kraji",
+                "desc": "Zaznamenali jsme plošné rozesílání podvodných e-mailů s předmětem \"Urgere: Aktualizace systému 0x4B\". Doporučujeme všem organizacím maximální ostražitost a neklikat na neznámé odkazy.",
+                "date": "24. Říjen 2026"
+            },
+            {
+                "title": "Nová směrnice NIS2: Jak se připravit",
+                "desc": "Připravili jsme pro zástupce měst a obcí ucelenou metodiku k implementaci nové evropské směrnice NIS2. Stáhněte si příručku nebo se zúčastněte webináře.",
+                "date": "12. Zářij 2026"
+            },
+            {
+                "title": "Školení: Základy kybernetické hygieny",
+                "desc": "JCKB pořádá jednodenní seminář pro zaměstnance krajských úřadů zaměřený na základy bezpečné práce na internetu a nakládání s osobními údaji.",
+                "date": "5. Zářij 2026"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Spojte se s námi",
+        "subtitle": "Jsme zde pro organizace zřizované Jihočeským krajem i další partnery. Neváhejte se na nás obrátit.",
+        "formName": "Jméno a příjmení",
+        "formEmail": "E-mailová adresa",
+        "formOrg": "Zastupovaná organizace (nepovinné)",
+        "formMessage": "Vaše zpráva",
+        "formSummary": "Shrňte svůj dotaz nebo popište bezpečnostní incident.",
+        "formSubmit": "Odeslat zprávu",
+        "idLabel": "IČ:",
+        "taxIdLabel": "DIČ:",
+        "dataBoxLabel": "Datová schránka:",
+        "generalInquiries": "Obecné dotazy:",
+        "recruitment": "Nábor a kariéra:"
+    },
+    "cookies": {
+        "title": "Nastavení soukromí",
+        "description": "Používáme cookies k zajištění nejlepšího zážitku na našem webu. V souladu s novými standardy 2026 si můžete vybrat, které typy cookies nám dovolíte používat.",
+        "acceptAll": "Přijmout vše",
+        "rejectAll": "Odmítnout vše",
+        "settings": "Nastavení",
+        "save": "Uložit volbu",
+        "essential": "Nezbytné",
+        "analytics": "Analytické",
+        "marketing": "Marketingové",
+        "essentialDesc": "Tyto cookies jsou nutné pro základní fungování webu.",
+        "analyticsDesc": "Pomáhají nám pochopit, jak návštěvníci web používají.",
+        "marketingDesc": "Slouží k personalizaci obsahu a měření efektivity.",
+        "privacyTrigger": "Nastavení soukromí a cookies"
+    },
+    "footer": {
+        "company": "Jihočeské centrum kybernetické bezpečnosti s.r.o.",
+        "addressTitle": "Sídlo a kontakt",
+        "addressLine1": "Lipová 1789/9",
+        "addressLine2": "České Budějovice 2, 370 05 České Budějovice",
+        "id": "IČO: 23012161",
+        "email": "info@jckb.cz",
+        "phone": "+420 383 579 151",
+        "linksTitle": "Rychlé odkazy",
+        "privacyPolicy": "Ochrana osobních údajů (GDPR)",
+        "cookieProcessing": "Zpracování cookies",
+        "mandatoryInfo": "Povinně zveřejňované informace",
+        "partnersTitle": "Ve spolupráci s",
+        "copyright": "© {{year}} Jihočeské centrum kybernetické bezpečnosti s.r.o. Všechna práva vyhrazena."
+    }
+}

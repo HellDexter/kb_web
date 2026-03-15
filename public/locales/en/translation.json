@@ -1,0 +1,382 @@
+{
+    "nav": {
+        "oAplikaci": "About Us",
+        "sluzby": "Services",
+        "aktuality": "News",
+        "kariera": "Careers",
+        "kontakt": "Contact"
+    },
+    "hero": {
+        "shield": "Security First",
+        "title1": "Regional",
+        "title2": "Cybernetic",
+        "title3": "Shield",
+        "subtitle": "The South Bohemian Cyber Security Center provides central protection for organizations established by the South Bohemian Region.",
+        "buttonNews": "Go to News",
+        "buttonContact": "Contact Us"
+    },
+    "onas": {
+        "title": "Who We Are",
+        "serviceTitle": "Regional Service Organization",
+        "aboutText1": "The South Bohemian Cyber Security Center Ltd. was established by a decision of the South Bohemian Regional Assembly to help as a service organization ensure the security of operations, IT infrastructure, and information for organizations established by the region. Not only the regional office itself, but especially healthcare facilities (hospitals, emergency services) will thus be able to use the center's support in eliminating cyber threats that could paralyze their operations or lead to the loss of important data.",
+        "aboutText2": "Advancing digitalization brings greater vulnerability to entities operating IT systems. Serious cyber attacks often occur, causing extensive damage to the attacked organizations. Their remediation requires significant financial costs and, above all, a long time needed to resolve functional problems caused by the attack. During this time, the organization's operations may be significantly limited. As mentioned above, digital technologies are increasingly used by organizations such as hospitals or emergency medical services.",
+        "aboutText3": "In connection with the transposition of the European NIS2 directive (which is an updated version of the NIS directive - Network and Information Security from 2016) into Czech legislation, there will be an expansion in the number of organizations that will have the obligation to introduce new organizational, procedural, and technical measures. These organizations with new obligations in the field of cyber security will also include the aforementioned regional entities (hospitals, emergency services, and others). All these measures will require not only significant financial but especially personnel costs.",
+        "aboutText4": "The South Bohemian Cyber Security Center, by concentrating experts in the field of cybersecurity in one place, will help with the organizational and procedural implementation of the requirements of the NIS2 directive. At the same time, it will cooperate on the technical security of individual subjects, resolve individual threats, and contribute to more effective security of the affected organizations in cyberspace through available tools.",
+        "visionTitle": "Our Vision",
+        "visionText": "To be the main partner for the South Bohemian Region and its municipalities in the fight against digital threats and to create a secure cyber ecosystem for citizens.",
+        "teamTitle": "Our Team",
+        "teamText": "We consist of certified security experts, ethical hackers, and experienced analysts with years of practice in protecting critical infrastructure.",
+        "stats1": "Organization Protection",
+        "stats2": "SOC Monitoring",
+        "stats3": "Compliance Partner",
+        "stats4": "Trust Architecture"
+    },
+    "legal": {
+        "gdpr": {
+            "title": "Privacy Policy (GDPR)",
+            "p1": "The South Bohemian Cyber Security Center Ltd. (JCKB) processes personal data in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council (GDPR).",
+            "purposeTitle": "Purpose of Processing",
+            "purposeText": "We process personal data primarily for communication with potential partners, handling inquiries, and ensuring the security of our services.",
+            "rightsTitle": "Your Rights",
+            "rightsText": "You have the right to access, rectify, or erase your data, restrict processing, and the right to object to processing.",
+            "contactText": "To exercise your rights, please contact us at: info@jckb.cz"
+        },
+        "cookies": {
+            "title": "Cookie Policy",
+            "p1": "This website uses only necessary technical cookies required for proper site functionality and security.",
+            "p2": "We do not use any third-party advertising or tracking cookies without your explicit consent.",
+            "settingsTitle": "Settings",
+            "settingsText": "You can change your preferences at any time in the privacy settings in the bottom left corner of the screen."
+        },
+        "mandatory": {
+            "title": "Mandatory Information",
+            "nameLabel": "Company Name:",
+            "nameValue": "Jihočeské centrum kybernetické bezpečnosti, s.r.o.",
+            "idLabel": "Company ID:",
+            "idValue": "23012161",
+            "taxIdLabel": "VAT ID:",
+            "taxIdValue": "CZ23012161",
+            "regLabel": "Registry File No:",
+            "regValue": "C 35116 at the Regional Court in České Budějovice",
+            "addressLabel": "Headquarters:",
+            "addressValue": "Lipová 1789/9, České Budějovice 2, 370 05 České Budějovice",
+            "dataBoxLabel": "Data Box ID:",
+            "dataBoxValue": "6aqnhjf"
+        }
+    },
+    "jobs": {
+        "title": "We're Hiring!",
+        "subtitle": "Interested in modern security tech? We're looking for IT specialists for the new regional SOC.",
+        "expectations": "Expectations",
+        "salaryLabel": "Salary",
+        "allJobsBtn": "View all open positions",
+        "ariaGoToJob": "Go to position"
+    },
+    "career": {
+        "title": "Careers at",
+        "subtitle": "Join a team of cyber security experts. We help protect the digital infrastructure of the South Bohemian Region against modern threats.",
+        "hideDetails": "Hide details",
+        "showDetails": "Show details",
+        "tasks": "Job Description",
+        "expected": "We Expect",
+        "bonus": "What would impress us:",
+        "offer": "We Offer",
+        "start": "Start:",
+        "contact": "Contact:",
+        "sendCV": "Send CV",
+        "emailSubject": "Job Application:",
+        "items": [
+            {
+                "id": "manazer-kb",
+                "title": "Cybersecurity Manager",
+                "salary": "50,000 - 100,000 CZK",
+                "tasks": [
+                    "Ensure information security management system in organizations established by the South Bohemian Region.",
+                    "Perform the role of Cybersecurity Manager.",
+                    "Create and implement security strategy and participate in risk identification and assessment processes.",
+                    "Monitor current security threats and prepare Business Continuity Management.",
+                    "Organize cybersecurity committees.",
+                    "Ensure compliance with regulatory requirements (especially NIS2, GDPR, internal laws).",
+                    "Incident management and crisis response.",
+                    "Participate in raising cybersecurity awareness and catching up with current trends.",
+                    "Travel and attend meetings in managed organizations."
+                ],
+                "expected": [
+                    "University degree and at least 2 years of experience in cybersecurity (or High School and 5 years experience).",
+                    "Knowledge of security standards (e.g. ISO 27001, NIS2, GDPR).",
+                    "Knowledge related to effective deployment and operation of technical security solutions.",
+                    "Ability to identify, analyze and manage security risks.",
+                    "Strong communication and organizational skills, ability to lead a team and manage projects.",
+                    "Relevant cybersecurity certifications are an advantage.",
+                    "Active driver (Category B license).",
+                    "Clean criminal record."
+                ],
+                "offer": [
+                    "Work on interesting projects influencing the quality of medical care provision in the region.",
+                    "Interesting work in a cybersecurity company.",
+                    "Opportunity to gain new experience, space for self-realization.",
+                    "Opportunities for professional education and personal development.",
+                    "A friendly and supportive team striving for success.",
+                    "Fair and decent treatment.",
+                    "High-quality equipment for problem-free work performance.",
+                    "Corporate package of benefits.",
+                    "Salary matching the candidate's skills and experience."
+                ],
+                "benefits": [
+                    "Further education, courses and relevant certifications",
+                    "Company events",
+                    "Flexible working hours",
+                    "Remote work option",
+                    "5 weeks of vacation",
+                    "Sickdays",
+                    "Pension/life insurance contribution",
+                    "Meal vouchers",
+                    "Mobile phone",
+                    "Laptop"
+                ],
+                "location": "České Budějovice",
+                "start": "Immediately or by agreement",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "it-specialista-senior",
+                "title": "IT Specialist Junior/Senior",
+                "salary": "50,000 - 100,000 CZK",
+                "tasks": [
+                    "Installation and administration of user computers (Windows) and corporate hardware.",
+                    "Securing the IT environment.",
+                    "Administration, installation and reconfiguration of networks and network elements.",
+                    "Installation, configuration, backups, administration and implementation of service requests.",
+                    "Administration of services and VMs in MS Azure and vCloud Director cloud platforms.",
+                    "Creation of project operational documentation.",
+                    "Close cooperation with the operations manager."
+                ],
+                "expected": [
+                    "Completed secondary education and experience in the field",
+                    "Knowledge of the Czech language",
+                    "Clean criminal record"
+                ],
+                "bonus": [
+                    "Knowledge of related software products.",
+                    "Knowledge of TCP/IP protocol and networks.",
+                    "Knowledge of scripting languages.",
+                    "Familiarity with SQL databases (PostgreSQL, MSSQL..).",
+                    "Installation and administration of Linux and Windows servers.",
+                    "Microsoft 365 administration.",
+                    "MS Azure administration skills.",
+                    "MS certifications (AZ-104, MS-500, SC-200, MCSA).",
+                    "Knowledge of cybersecurity and SOC Operations."
+                ],
+                "offer": [
+                    "Work on interesting projects in the South Bohemian Region.",
+                    "Interesting work in a company focused on cybersecurity.",
+                    "Opportunities for professional growth.",
+                    "Friendly and supportive team.",
+                    "High-quality hardware equipment.",
+                    "Competitive salary matching skills and experience."
+                ],
+                "benefits": [
+                    "Educational courses, training",
+                    "Company events",
+                    "Flexible working hours",
+                    "Remote work option",
+                    "5 weeks of vacation",
+                    "Sickdays",
+                    "Pension/life insurance contribution",
+                    "Meal vouchers"
+                ],
+                "location": "České Budějovice",
+                "start": "Immediately or by agreement",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "vedouci-soc",
+                "title": "SOC Lead",
+                "salary": "100,000 - 150,000 CZK",
+                "tasks": [
+                    "Crucial participation in building the Security Operations Center (SOC).",
+                    "Leading personnel selection of suitable candidates.",
+                    "Responsible for leading and developing the team of SOC analysts.",
+                    "Managing detection, analysis, and responses to cyber incidents.",
+                    "Defining detection rules, automation playbooks, and incident response processes.",
+                    "Communicating with national CERT and ensuring SOC operations per NIS2.",
+                    "Configuring and optimizing monitoring and incident response processes.",
+                    "Designing and optimizing SOC architecture (SIEM, SOAR, TI, log management, EDR, XDR)."
+                ],
+                "expected": [
+                    "Experience building a SOC and leading a team.",
+                    "Cybersecurity practice and experience.",
+                    "Experience in IT security architecture, automation, and Threat Intelligence.",
+                    "Knowledge of SOC principles, SIEM, SOAR, EDR, IDS/IPS, CTI and tools.",
+                    "Practical knowledge of SIEM solutions.",
+                    "Good organizational skills and decision-making under pressure.",
+                    "Orientation in standards (ISO 27001, NIST, MITRE ATT&CK).",
+                    "Communicative level of English."
+                ],
+                "bonus": [
+                    "Certifications (e.g., CISSP, CISM, GIAC)"
+                ],
+                "offer": [
+                    "Work on strategic projects impacting medical and regional care.",
+                    "Engaging work in cybersecurity with great facilities.",
+                    "Space for self-realization and personal growth."
+                ],
+                "benefits": [
+                    "Further education, courses, and certifications",
+                    "Company events",
+                    "Flexible and remote work forms",
+                    "5 weeks of vacation",
+                    "Pension insurance contribution"
+                ],
+                "location": "České Budějovice",
+                "start": "Immediately",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "it-sitar",
+                "title": "IT Network Specialist",
+                "salary": "50,000 - 100,000 CZK",
+                "tasks": [
+                    "Manage and maintain corporate network infrastructure (switches, routers, firewalls).",
+                    "Configure and optimize network security elements.",
+                    "Participate in designing and implementing network solutions.",
+                    "Monitor network traffic, evaluate incidents, improve cybersecurity.",
+                    "Collaborate on ensuring smooth corporate services operations.",
+                    "Create technical and operational documentation."
+                ],
+                "expected": [
+                    "High school degree and practical experience in network administration.",
+                    "Experience with TCP/IP, VLAN, routing, switching, VPN, 802.1X.",
+                    "Configuration of firewalls and overview of security principles.",
+                    "Czech language skills and clean criminal record."
+                ],
+                "bonus": [
+                    "Experience with Fortinet, Cisco, Sophos.",
+                    "Basics of Linux and Windows servers administration, network diagnostics.",
+                    "Overview of segmentation, IDS/IPS, Zero Trust.",
+                    "Certifications such as Fortinet NSE, CCNA, or CompTIA."
+                ],
+                "offer": [
+                    "Work in a strong team focused on public administration systems security.",
+                    "High-quality IT equipment."
+                ],
+                "benefits": [
+                    "Education and certifications",
+                    "Company events",
+                    "5 weeks of vacation",
+                    "Sickdays",
+                    "Laptop and mobile phone",
+                    "Work flexibility"
+                ],
+                "location": "České Budějovice",
+                "start": "Immediately or by agreement",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            },
+            {
+                "id": "it-m365",
+                "title": "M365 Administrator / IT Specialist",
+                "salary": "60,000 - 120,000 CZK",
+                "tasks": [
+                    "Comprehensive administration of Microsoft 365 / Entra ID (Azure AD) tenant.",
+                    "Management of user accounts, groups, roles, domains, DNS records, and licenses.",
+                    "Configuration of MFA, SSPR, Conditional Access, Identity Protection.",
+                    "Administration and configuration of Entra Connect / Cloud Sync.",
+                    "Full Intune administration including MDM / MAM policies.",
+                    "Configuration of Autopilot, Enrollment, and Compliance policies.",
+                    "Creating configuration profiles (BitLocker, Wi-Fi, VPN).",
+                    "Onboarding automation (Intune + Power Automate)."
+                ],
+                "expected": [
+                    "Experience with Microsoft 365 / Entra ID / Intune administration (min. 2 years).",
+                    "Completed secondary education and field experience.",
+                    "Czech language skills and clean criminal record."
+                ],
+                "bonus": [
+                    "Experience with PKI / ProID+ / certificates",
+                    "Orientation in NIS2, ISO 27001, GDPR",
+                    "Ability to write PowerShell scripts, Graph API",
+                    "Understanding of Microsoft Sentinel and Log Analytics",
+                    "Knowledge of Zero Trust principles."
+                ],
+                "offer": [
+                    "Opportunity to grow with technology in a secure and stable environment."
+                ],
+                "benefits": [
+                    "Remote work option",
+                    "Further education",
+                    "Sickdays",
+                    "5 weeks of vacation",
+                    "Personal bonuses"
+                ],
+                "location": "České Budějovice",
+                "start": "Immediately or by agreement",
+                "contact": "Hana Holubová, tel. 383 579 151",
+                "email": "info@jckb.cz"
+            }
+        ]
+    },
+    "news": {
+        "title": "News and Threats",
+        "subtitle": "Overview of the latest security events and warnings issued by JCKB.",
+        "allSources": "All Sources",
+        "filterBy": "Source:",
+        "readMore": "Read more",
+        "loadMore": "Load more news",
+        "types": {
+            "kr": "CRITICAL",
+            "ar": "ARTICLE",
+            "ev": "EVENT"
+        },
+        "items": [
+            {
+                "title": "Elevated Risk of Phishing Attacks in the Region",
+                "desc": "We have registered widespread dispatch of fraudulent emails with the subject 'Urgere: System Update 0x4B'. We recommend maximum vigilance and not clicking on unknown links.",
+                "date": "Oct 24, 2026"
+            },
+            {
+                "title": "New NIS2 Directive: How to Prepare",
+                "desc": "We have prepared a comprehensive methodology for municipal representatives to implement the new European NIS2 directive. Download the manual or attend our webinar.",
+                "date": "Sep 12, 2026"
+            },
+            {
+                "title": "Training: Cyber Hygiene Basics",
+                "desc": "JCKB is organizing a one-day seminar for regional authority employees focused on the basics of safe internet browsing and personal data handling.",
+                "date": "Sep 5, 2026"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Get in touch with us",
+        "subtitle": "We are here for organizations established by the South Bohemian Region and other partners.",
+        "formName": "Full Name",
+        "formEmail": "Email Address",
+        "formOrg": "Represented Organization (optional)",
+        "formMessage": "Your Message",
+        "formSummary": "Summarize your inquiry or report a security incident.",
+        "formSubmit": "Send Message",
+        "idLabel": "Company ID:",
+        "taxIdLabel": "VAT ID:",
+        "dataBoxLabel": "Data Box:",
+        "generalInquiries": "General Inquiries:",
+        "recruitment": "Recruitment & Careers:"
+    },
+    "footer": {
+        "company": "South Bohemian Cyber Security Center Ltd.",
+        "addressTitle": "Headquarters & Contact",
+        "addressLine1": "Lipová 1789/9",
+        "addressLine2": "České Budějovice 2, 370 05 České Budějovice",
+        "id": "Company ID: 23012161",
+        "email": "info@jckb.cz",
+        "phone": "+420 383 579 151",
+        "linksTitle": "Quick Links",
+        "privacyPolicy": "Privacy Policy",
+        "cookieProcessing": "Cookie Policy",
+        "mandatoryInfo": "Mandatory Information",
+        "partnersTitle": "In cooperation with",
+        "copyright": "© {{year}} South Bohemian Cyber Security Center Ltd. All rights reserved."
+    }
+}
