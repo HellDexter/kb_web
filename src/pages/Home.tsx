@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
 import { useTheme } from '../useTheme';
-import { HeroGlow } from '../components/HeroGlow';
 import type { Job } from './Kariera';
 
 const Home = () => {
@@ -80,7 +79,6 @@ const Home = () => {
                     <div className="absolute inset-0 bg-gradient-to-b from-white via-white/40 to-white dark:from-cyber-darker dark:via-transparent dark:to-cyber-darker" />
                 </div>
 
-                <HeroGlow />
 
                 {/* Abstract background elements */}
                 <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-20">
@@ -98,14 +96,18 @@ const Home = () => {
                         transition={{ duration: 0.8 }}
                         className="text-center max-w-4xl mx-auto"
                     >
-                        <div className="flex justify-center mb-8">
+                        <div className="flex justify-center mb-10">
                             <motion.img
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.5, delay: 0.2 }}
+                                whileHover={{ 
+                                    scale: 1.05, 
+                                    filter: theme === 'dark' ? 'drop-shadow(0 0 20px rgba(0,255,255,0.4))' : 'drop-shadow(0 0 20px rgba(0,156,193,0.3))' 
+                                }}
                                 src={theme === 'dark' ? "/img/brand/jckb-logo-bila.png" : "/img/brand/logo-color.png"}
                                 alt="JCKB Logo"
-                                className="h-20 md:h-32 w-auto object-contain drop-shadow-2xl"
+                                className="h-28 md:h-40 lg:h-48 w-auto object-contain drop-shadow-2xl transition-all duration-300 cursor-pointer"
                             />
                         </div>
                         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/80 dark:bg-slate-900/50 border border-blue-200 dark:border-cyber-neon/30 text-blue-700 dark:text-cyber-neon text-sm font-semibold mb-6 shadow-sm">
@@ -159,7 +161,7 @@ const Home = () => {
             </section>
 
             {/* CTA Section - Jobs 3D Carousel */}
-            <section className="py-16 relative overflow-hidden bg-slate-100/50 dark:bg-slate-900/20 perspective-[1000px]">
+            <section className="py-8 md:py-10 relative overflow-hidden bg-slate-100/50 dark:bg-slate-900/20 perspective-[1000px]">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-brand-secondary/5 dark:to-cyber-blue/10 pointer-events-none" />
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 mb-10">
                     <h2 className="text-3xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white">{t('jobs.title')}</h2>
@@ -182,7 +184,7 @@ const Home = () => {
 
                     {/* 3D Carousel Container */}
                     <div
-                        className="relative w-full min-h-[500px] md:min-h-[600px] flex items-center justify-center px-4 py-4"
+                        className="relative w-full min-h-[400px] md:min-h-[460px] flex items-center justify-center px-4 py-4"
                         onMouseEnter={() => setIsPaused(true)}
                         onMouseLeave={() => setIsPaused(false)}
                         onWheel={handleWheel}
@@ -195,8 +197,8 @@ const Home = () => {
                                     key={job.id}
                                     animate={{ x, scale, zIndex, opacity, rotateY }}
                                     transition={{ type: "spring", stiffness: 100, damping: 20, mass: 1 }}
-                                    className={`absolute w-[320px] md:w-[380px] h-[320px] md:h-[350px] flex-shrink-0 cursor-pointer group pointer-events-auto
-                                        ${isCenter ? 'z-50' : 'z-0'}`}
+                                    className={`absolute w-[320px] md:w-[380px] h-[320px] md:h-[350px] flex-shrink-0 cursor-pointer pointer-events-auto
+                                        ${isCenter ? 'z-50 group' : 'z-0'}`}
                                     style={{ transformStyle: 'preserve-3d' }}
                                     onClick={(e) => {
                                         if (isCenter) {
@@ -209,7 +211,7 @@ const Home = () => {
                                 >
                                     {/* Expanding Interactive Container */}
                                     <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] rounded-2xl overflow-hidden shadow-xl
-                                        ${isCenter ? 'group-hover:w-[360px] md:group-hover:w-[460px] group-hover:h-[480px] md:group-hover:h-[550px] group-hover:shadow-[0_0_40px_rgba(30,58,138,0.2)] dark:group-hover:shadow-[0_0_40px_rgba(56,189,248,0.2)]' : ''}`}>
+                                        ${isCenter ? 'group-hover:w-[360px] md:group-hover:w-[460px] group-hover:h-[440px] md:group-hover:h-[500px] group-hover:shadow-[0_0_40px_rgba(30,58,138,0.2)] dark:group-hover:shadow-[0_0_40px_rgba(56,189,248,0.2)]' : ''}`}>
 
                                         {/* Background Revealed Layer (Specs) */}
                                         <div className="absolute inset-0 bg-gradient-to-br from-brand-primary to-blue-900 dark:from-slate-800 dark:to-[#080d19] p-6 pt-8 pb-0 text-white flex flex-col justify-start border border-brand-primary/20 dark:border-slate-700 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-75">
