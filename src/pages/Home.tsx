@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
 import { useTheme } from '../useTheme';
+import { HeroGlow } from '../components/HeroGlow';
 import type { Job } from './Kariera';
 
 const Home = () => {
@@ -79,6 +80,8 @@ const Home = () => {
                     <div className="absolute inset-0 bg-gradient-to-b from-white via-white/40 to-white dark:from-cyber-darker dark:via-transparent dark:to-cyber-darker" />
                 </div>
 
+                <HeroGlow />
+
                 {/* Abstract background elements */}
                 <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-20">
                     <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-brand-primary/10 dark:bg-brand-primary/20 blur-[120px] rounded-full" />
@@ -150,6 +153,9 @@ const Home = () => {
                         <ChevronDown className="text-slate-500 dark:text-white/60 w-8 h-8 drop-shadow-md group-hover:text-brand-primary dark:group-hover:text-cyber-neon transition-colors" />
                     </motion.div>
                 </motion.div>
+
+                {/* Spodní přechod do ztracena */}
+                <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-white dark:from-cyber-darker to-transparent pointer-events-none z-10" />
             </section>
 
             {/* CTA Section - Jobs 3D Carousel */}

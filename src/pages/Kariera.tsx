@@ -2,6 +2,20 @@ import { useState } from 'react';
 import { BriefcaseBusiness, ChevronDown, MapPin, SearchCheck, PiggyBank, GraduationCap, ChevronRight, Mail, Phone, ShieldCheck } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
+import imgManazerKb from '../assets/jobs/manazer-kb.png';
+import imgItSpecialistaSenior from '../assets/jobs/it-specialista-senior.png';
+import imgVedouciSoc from '../assets/jobs/vedouci-soc.png';
+import imgItSitar from '../assets/jobs/it-sitar.png';
+import imgItM365 from '../assets/jobs/it-m365.png';
+
+const jobImages: Record<string, string> = {
+    'manazer-kb': imgManazerKb,
+    'it-specialista-senior': imgItSpecialistaSenior,
+    'vedouci-soc': imgVedouciSoc,
+    'it-sitar': imgItSitar,
+    'it-m365': imgItM365,
+};
+
 export interface Job {
     id: string;
     title: string;
@@ -66,11 +80,12 @@ const Kariera = () => {
                                 className="pl-6 pr-5 py-4 sm:py-5 cursor-pointer flex flex-col md:flex-row md:items-center justify-between gap-4 relative"
                             >
                                 <div className="flex items-start gap-4">
-                                    <div className={`p-3 rounded-lg shrink-0 transition-all duration-300 
+                                    <div className={`relative w-12 h-12 md:w-14 md:h-14 rounded-xl overflow-hidden shrink-0 transition-all duration-300 shadow-md
                                         ${openJobId === job.id
-                                            ? 'bg-brand-primary text-white scale-110 shadow-lg shadow-brand-primary/20'
-                                            : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 group-hover:bg-brand-primary/10 group-hover:text-brand-primary dark:group-hover:bg-cyber-blue/10 dark:group-hover:text-cyber-blue'}`}>
-                                        <BriefcaseBusiness size={20} />
+                                            ? 'scale-110 shadow-lg shadow-brand-primary/30 ring-2 ring-brand-primary/50'
+                                            : 'grayscale-[30%] opacity-90 group-hover:grayscale-0 group-hover:opacity-100'}`}>
+                                        <img src={jobImages[job.id]} alt={job.title} className="w-full h-full object-cover" />
+                                        <div className="absolute inset-0 bg-gradient-to-tr from-brand-primary/40 to-transparent mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity" />
                                     </div>
                                     <div>
                                         <h3 className="text-lg md:text-xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-brand-primary dark:group-hover:text-cyber-neon transition-colors">
@@ -110,6 +125,18 @@ const Kariera = () => {
                                 className={`overflow-hidden transition-all duration-700 cubic-bezier(0.4, 0, 0.2, 1) ${openJobId === job.id ? 'max-h-[3000px] opacity-100' : 'max-h-0 opacity-0'}`}
                             >
                                 <div className="px-6 pb-8 pt-0 relative">
+                                    {/* Image Banner */}
+                                    <div className="w-full h-48 sm:h-64 md:h-80 rounded-2xl overflow-hidden mb-8 relative group/banner border border-slate-200 dark:border-slate-800 shadow-inner">
+                                        <img src={jobImages[job.id]} alt={job.title} className="w-full h-full object-cover transition-transform duration-1000 group-hover/banner:scale-105" />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent pointer-events-none" />
+                                        <div className="absolute bottom-0 left-0 right-0 p-6 flex items-end justify-between">
+                                            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-bold shadow-xl">
+                                                <BriefcaseBusiness size={16} className="text-brand-primary dark:text-cyber-neon" />
+                                                <span>{job.title}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div className="h-px w-full bg-gradient-to-r from-brand-primary/30 via-slate-200 dark:via-slate-800 to-transparent mb-8" />
 
                                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
