@@ -43,7 +43,7 @@ const ONas = () => {
     };
 
     return (
-        <section id="o-nas" className="py-24 relative overflow-hidden bg-white dark:bg-cyber-dark transition-colors">
+        <section className="py-24 relative overflow-hidden bg-white dark:bg-cyber-dark transition-colors">
             {/* Advanced Cyber Background */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10 bg-[radial-gradient(circle_at_50%_50%,rgba(0,163,255,0.05),transparent)] dark:bg-[radial-gradient(circle_at_50%_50%,rgba(0,163,255,0.03),transparent)]">
                 <div className="absolute top-[20%] left-[-10%] w-[600px] h-[600px] bg-brand-primary/10 dark:bg-cyber-blue/5 blur-[120px] rounded-full animate-pulse" />

@@ -18,7 +18,7 @@ const Kontakt = () => {
     const getPhone = (parts: string[]) => parts.join(' ');
 
     return (
-        <div className="py-24 min-h-screen relative overflow-hidden bg-white dark:bg-cyber-darker transition-colors" id="kontakt">
+        <div className="py-24 min-h-screen relative overflow-hidden bg-white dark:bg-cyber-darker transition-colors">
             {/* Background Accents */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-primary/5 dark:bg-cyber-blue/10 blur-[120px] rounded-full -z-10 pointer-events-none" />
             <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-brand-secondary/5 dark:bg-cyber-purple/10 blur-[100px] rounded-full -z-10 pointer-events-none" />
